@@ -90,7 +90,7 @@ Similar to previous node, this node uses raw images of the environment captures 
 
 ## Code Documentation:
 
-The code documentation is done using Doxygen tool. Please find the doxygen documentation in the **main** branch .
+The code documentation is done using Doxygen tool. Please find the doxygen documentation in the **master** branch .
 
 ## Contant Info: 
 1. Author: Shozab Abidi
