@@ -56,7 +56,7 @@ The project architecture is based on the following main nodes.
 
 ![rqt_graph_assignment3](https://user-images.githubusercontent.com/61094879/169672250-8b9784d6-d6af-4899-b74e-806bf6a3fae9.PNG)
 
-1. assignment3 | simulation.cpp
+1. final_oracle | simulation.cpp
 
 The assignment3 node implement the two 'oracle' services '/oracle_hint' and '/oracle_solution'. The oracle is implemented in a way that it randomly generate hints of IDs 0 to 5 which may or may not generate inconsistent hypothesis. It also randomly generates a trustable ID; only the hypothesis deduced from hints with trustable ID are considered correct hypothesis. This trustable ID can be requested from the 'oracle_solution' service. The generated hints by this node are publish in '/oracle_hint' topic.
 
