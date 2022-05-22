@@ -1,5 +1,5 @@
 /**
-* \file hint_collecter.cpp
+* \file hint_collector.cpp
 * \brief This files contains code for the 'hint_collector' node.
 * \author Shozab Abidi
 * \version 1.0
@@ -7,13 +7,12 @@
 *
 * \details
 * 
-* Services : <BR>
-* /request_hint_collector
+* Services: <BR>
 * /hint_loader_service
 * /oracle_hint
 * 
-* Publishers / Subscribers : <BR>
-* 
+* Advertised Services: <BR>
+* /request_hint_collector
 *  
 * Description :
 * This node provides the '/request_hint_collector' service which collects and store the hints one by one from the '/oracle_hint'

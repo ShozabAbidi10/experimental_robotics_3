@@ -9,13 +9,13 @@
 #
 # \details
 #
-# Service : <BR>
+# Service: <BR>
 # /request_follow_marker
 #
-# Publisher : <BR>
+# Publishes to: <BR>
 #  /cmd_vel
 #  
-# Subscriber : <BR> 
+# Subscribes to: <BR> 
 # /aruco_marker_id
 # /camera2/image_raw/compressed
 #

@@ -9,11 +9,17 @@
 #
 # \details
 #
-# Service : <BR>
+# Service: <BR>
 # /hint_loader_service
 # /armor_interface_srv
 # /oracle_solution
 #  
+# Subscribes to: <BR>
+#	[None]
+#
+# Publishes to: <BR>
+#	[None]
+#
 # This node waits for 'hint_loader_service' service requests from the 'hintcollector' node. Based on the request recieved, it 
 # loads the hint in the ARMOR reasonser, start the reasoner to deduced a hypotheses based on the previously loaded hints and 
 # request ARMOR reasoner for the list of 'COMPLETE' hypotheses. If the recently deduced hypothesis is 'COMPLETE' then it checks

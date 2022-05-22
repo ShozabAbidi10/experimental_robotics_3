@@ -1,4 +1,3 @@
-
 /**
 * \file simple_action.cpp
 * \brief This files contains code for the 'simple_action' node.
@@ -8,18 +7,20 @@
 *
 * \details
 * 
-* Services : <BR>
+* Action Clients / Services: <BR>
 * /request_hint_collector
 * /request_follow_marker
 * /MoveBaseAction
 * 
-* Publishers / Subscribers : <BR>
+* Subscribes to:<BR>
 * /odom
+* 
 *  
 * Description :
+* 
 * This node implements a state machine which curates the robot behavior. The node recieves the odometry 
 * data of the robot from the topic '/odom' and keeps the track of robot's position. Based on robot's
-* position the The statement machine move in the following states, 1) Reach center of the room[x]. 2) 
+* position the 'state machine' move in the following states, 1) Reach center of the room[x]. 2) 
 * start exploration in room[x] and collect hint. 3) If hint is detected then call '/hint_collector' 
 * service to collect and load the hint in armor knowlegde base (KB).
 *  
